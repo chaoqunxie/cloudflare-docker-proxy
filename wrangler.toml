@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.sharemoon.club", custom_domain = true },
-  { pattern = "quay.sharemoon.club", custom_domain = true },
-  { pattern = "gcr.sharemoon.club", custom_domain = true },
-  { pattern = "k8s-gcr.sharemoon.club", custom_domain = true },
-  { pattern = "k8s.sharemoon.club", custom_domain = true },
-  { pattern = "ghcr.sharemoon.club", custom_domain = true },
-  { pattern = "cloudsmith.sharemoon.club", custom_domain = true },
+  { pattern = "docker.easyaicn.cn", custom_domain = true },
+  { pattern = "quay.easyaicn.cn", custom_domain = true },
+  { pattern = "gcr.easyaicn.cn", custom_domain = true },
+  { pattern = "k8s-gcr.easyaicn.cn", custom_domain = true },
+  { pattern = "k8s.easyaicn.cn", custom_domain = true },
+  { pattern = "ghcr.easyaicn.cn", custom_domain = true },
+  { pattern = "cloudsmith.easyaicn.cn", custom_domain = true },
 ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-route = { pattern = "docker-staging.sharemoon.club", custom_domain = true }
+route = { pattern = "docker-staging.easyaicn.cn", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
