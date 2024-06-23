@@ -7,16 +7,16 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.sharemoon.club": dockerHub,
-  "quay.sharemoon.club": "https://quay.io",
-  "gcr.sharemoon.club": "https://gcr.io",
-  "k8s-gcr.sharemoon.club": "https://k8s.gcr.io",
-  "k8s.sharemoon.club": "https://registry.k8s.io",
-  "ghcr.sharemoon.club": "https://ghcr.io",
-  "cloudsmith.sharemoon.club": "https://docker.cloudsmith.io",
+  "docker.easyaicn.cn": dockerHub,
+  "quay.easyaicn.cn": "https://quay.io",
+  "gcr.easyaicn.cn": "https://gcr.io",
+  "k8s-gcr.easyaicn.cn": "https://k8s.gcr.io",
+  "k8s.easyaicn.cn": "https://registry.k8s.io",
+  "ghcr.easyaicn.cn": "https://ghcr.io",
+  "cloudsmith.easyaicn.cn": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.sharemoon.club": dockerHub,
+  "docker-staging.easyaicn.cn": dockerHub,
 };
 
 function routeByHosts(host) {
